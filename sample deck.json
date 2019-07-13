@@ -1,0 +1,30 @@
+{
+  "boy" : {
+   "1": [
+     "Have a good day.", "Sing a song.", "Draw a picture."
+   ],
+   "2": [
+     "Do a dance.", "Tell a story.", "Help with cleaning a room."
+   ],
+   "3" : [
+     "Write a poem.", "Do some exercises.", "Greet everyone you meet."
+   ],
+   "4" : [
+      "Play a board game.", "Make something out of LEGOs.", "Play a game of tag."
+   ]
+},
+  "girl" : {
+   "1" : [
+     "Sing a song", "Help in cleaning.", "Play a game."
+      ],
+   "2" : [
+      "Do a cartwheel", "Bake something delicious.", "Read a book."
+      ],
+   "3" : [
+      "Draw a picture", "Tell us about your day.", "Plant a garden."
+   ],
+   "4" : [
+      "Play a board game.", "Make something with LEGOs.", "Play a ball game."
+   ]
+ }
+}

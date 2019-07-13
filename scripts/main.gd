@@ -16,9 +16,22 @@ extends Control
 
 # When the "Boy" button is clicked, assign the gender and switch to the "cards" scene.
 func _on_Boy_pressed():
+    if $FileDialog.get_current_file() == "":
+        _show_error("Please choose a file.")
+        return
     global_data.gender = "boy"
     get_tree().change_scene("res://scenes/cards.tscn")
 
 func _on_Girl_pressed():
+    if $FileDialog.get_current_file() == "":
+        _show_error("Please choose a file.")
+        return
     global_data.gender = "girl"
     get_tree().change_scene("res://scenes/cards.tscn")
+
+func _show_error(error_msg):
+    $"Error dialog/Error msg".set_text(error_msg)
+    $"Error dialog".show()
+
+func _on_Open_file_pressed():
+    $FileDialog.show()
