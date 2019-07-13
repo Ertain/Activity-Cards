@@ -4,28 +4,28 @@
 [ext_resource path="res://assets/Kenney's space UI pack/metalPanel_yellow.png" type="Texture" id=2]
 [ext_resource path="res://assets/DejaVuSans.ttf" type="DynamicFontData" id=3]
 
-[sub_resource type="StyleBoxTexture" id=17]
+[sub_resource type="StyleBoxTexture" id=1]
 texture = ExtResource( 1 )
 region_rect = Rect2( 0, 0, 100, 100 )
 
-[sub_resource type="StyleBoxTexture" id=20]
+[sub_resource type="StyleBoxTexture" id=2]
 texture = ExtResource( 1 )
 region_rect = Rect2( 0, 0, 100, 100 )
 
-[sub_resource type="StyleBoxTexture" id=21]
+[sub_resource type="StyleBoxTexture" id=3]
 texture = ExtResource( 2 )
 region_rect = Rect2( 0, 0, 100, 100 )
 margin_top = 25.0
 expand_margin_right = 3.0
 expand_margin_top = 24.0
 
-[sub_resource type="DynamicFont" id=18]
+[sub_resource type="DynamicFont" id=4]
 outline_color = Color( 0, 0, 0, 1 )
 font_data = ExtResource( 3 )
 
 [resource]
-default_font = SubResource( 18 )
-"Dialogs/styles/Error dialog" = SubResource( 17 )
+default_font = SubResource( 4 )
+"Dialogs/styles/Error dialog" = SubResource( 1 )
 "PopupPanel/styles/space popup panel" = null
 WindowDialog/colors/title_color = Color( 0, 0, 0, 1 )
 WindowDialog/constants/close_h_ofs = 18
@@ -35,6 +35,6 @@ WindowDialog/constants/title_height = 15
 WindowDialog/fonts/title_font = null
 WindowDialog/icons/close = null
 WindowDialog/icons/close_highlight = null
-"WindowDialog/styles/Space Window dialog" = SubResource( 20 )
-WindowDialog/styles/panel = SubResource( 21 )
+"WindowDialog/styles/Space Window dialog" = SubResource( 2 )
+WindowDialog/styles/panel = SubResource( 3 )
 
